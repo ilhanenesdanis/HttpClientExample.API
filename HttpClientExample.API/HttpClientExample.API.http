@@ -1,6 +1,4 @@
 @HttpClientExample.API_HostAddress = http://localhost:5217
 
-GET {{HttpClientExample.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
+GET {{HttpClientExample.API_HostAddress}}/newBooksBadWay
+Accept : application/json
