@@ -1,8 +1,11 @@
-﻿namespace HttpClientExample.API.Options
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace HttpClientExample.API.Options;
+
+public sealed class NewsOptions
 {
-    public sealed class NewsOptions
-    {
-        public string ApiKey { get; set; }
-        public string BaseURL { get; set; }
-    }
+    [Required]
+    public string ApiKey { get; set; }
+    [Required]
+    public string BaseURL { get; set; }
 }

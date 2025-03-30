@@ -1,4 +1,17 @@
-@HttpClientExample.API_HostAddress = http://localhost:5217
+@HttpClientExample.API_HostAddress = https://localhost:7064
 
-GET {{HttpClientExample.API_HostAddress}}/newBooksBadWay
-Accept : application/json
+GET {{HttpClientExample.API_HostAddress}}/v1/newBooks
+
+###
+
+GET {{HttpClientExample.API_HostAddress}}/v2/newBooks
+
+###
+
+GET {{HttpClientExample.API_HostAddress}}/v3/newBooks
+
+###
+
+GET {{HttpClientExample.API_HostAddress}}/v4/newBooks
+
+###
